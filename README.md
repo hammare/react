@@ -15,7 +15,7 @@ We have several examples [on the website](https://facebook.github.io/react/). He
 ```js
 var HelloMessage = React.createClass({
   render: function() {
-    return <div>Hello {this.props.name}</div>;
+    return <div>Bye {this.props.name}</div>;
   }
 });
 
